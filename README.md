@@ -21,7 +21,7 @@ A sleek and responsive personal portfolio showcasing my skills in IT, cloud depl
 
 ## 🚀 Live Demo
 
-🔗 [Visit my portfolio](https://your-site-name.netlify.app)
+🔗 [Visit my portfolio](https://portfpliov1.netlify.app/)
 
 ---
 
