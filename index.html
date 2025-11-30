@@ -262,10 +262,84 @@
         <!-- Projects Section -->
         <section>
             <h2>🚀 Projects</h2>
+            <div class="projects-grid">
+                <!-- Azure Static Website Hosting -->
+                <div class="project-card">
+                    <div class="project-title">Azure Static Website Hosting</div>
+                    <div class="project-description">
+                        Host a static site on Azure Storage with the Static Website feature. Deployed via Azure CLI and served from the `$web` container.
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-badge">Azure Storage</span>
+                        <span class="tech-badge">Azure CLI</span>
+                        <span class="tech-badge">Static Website</span>
+                        <span class="tech-badge">Blob</span>
+                    </div>
+                    <div class="project-description">
+                        <strong>Deployment Process:</strong>
+                        <ul style="margin-left: 20px; margin-top: 10px;">
+                            <li>Create Storage Account</li>
+                            <li>Enable Static Website Hosting</li>
+                            <li>Upload files to `$web` via CLI</li>
+                            <li>Access via public endpoint</li>
+                            <li>Live site: <a href="https://teeruchstorage123.z13.web.core.windows.net/" target="_blank">View Demo</a></li>
+                        </ul>
+                    </div>
+                    <a href="https://github.com/d234mkikodo/StaticWebsiteHosting-azure-site" class="project-link" target="_blank">View on GitHub →</a>
+                </div>
+
+                <!-- Linux Labs -->
+                <div class="project-card">
+                    <div class="project-title">🐧 Linux Labs - DevOps Practice</div>
+                    <div class="project-description">
+                        Hands-on labs covering Ubuntu admin, Docker, Nginx, and MySQL. Includes automation scripts and bilingual documentation (TH/EN).
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-badge">Linux/Ubuntu</span>
+                        <span class="tech-badge">Docker</span>
+                        <span class="tech-badge">Nginx</span>
+                        <span class="tech-badge">MySQL</span>
+                        <span class="tech-badge">Bash</span>
+                        <span class="tech-badge">Compose</span>
+                    </div>
+                    <a href="https://github.com/d234mkikodo/linux-labs" class="project-link" target="_blank">View on GitHub →</a>
+                </div>
+
+                <!-- n8n Workflow -->
+                <div class="project-card">
+                    <div class="project-title">🤖 n8n Job TTS Automation</div>
+                    <div class="project-description">
+                        Automates job descriptions to speech using ElevenLabs and posts audio to Discord via webhooks.
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-badge">n8n</span>
+                        <span class="tech-badge">ElevenLabs</span>
+                        <span class="tech-badge">Discord</span>
+                        <span class="tech-badge">Automation</span>
+                    </div>
+                    <a href="https://github.com/d234mkikodo/n8n-workflow" class="project-link" target="_blank">View on GitHub →</a>
+                </div>
+
+                <!-- Go API -->
+                <div class="project-card">
+                    <div class="project-title">⚡ Advanced Go REST API</div>
+                    <div class="project-description">
+                        Production-ready REST API with CRUD, search, pagination, validation, and robust error handling using Go's standard library.
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-badge">Go</span>
+                        <span class="tech-badge">REST</span>
+                        <span class="tech-badge">CRUD</span>
+                        <span class="tech-badge">Pagination</span>
+                    </div>
+                    <a href="https://github.com/d234mkikodo/go-api" class="project-link" target="_blank">View on GitHub →</a>
+                </div>
+
+                <!-- SpaceHub -->
                 <div class="project-card">
                     <div class="project-title">SpaceHub — Responsive Space Landing</div>
                     <div class="project-description">
-                        A clean, responsive landing page inspired by space explorations with modern layout, smooth interactions, and mobile-first design.
+                        Clean, responsive landing page inspired by space exploration. Modern layout, smooth interactions, and mobile-first design.
                     </div>
                     <div class="tech-stack">
                         <span class="tech-badge">HTML</span>
@@ -276,126 +350,10 @@
                     <a class="project-link" href="https://github.com/d234mkikodo/spacehub/tree/main" target="_blank">GitHub Repo</a>
                     <a class="project-link" href="https://d234mkikodo.github.io/spacehub" target="_blank">Live Demo</a>
                 </div>
-                    </div>
-                    <div class="project-description">
-                        <strong>Deployment Process:</strong>
-                        <ul style="margin-left: 20px; margin-top: 10px;">
-                            <li>Created Storage Account with custom naming</li>
-                            <li>Enabled Static Website Hosting feature</li>
-                            <li>Deployed files via Azure CLI blob upload</li>
-                            <li>Configured public endpoint access</li>
-                            <li>Live site: <a href="https://teeruchstorage123.z13.web.core.windows.net/" target="_blank" style="color: #764ba2;">View Demo</a></li>
-                        </ul>
-                    </div>
-                    <a href="https://github.com/d234mkikodo/StaticWebsiteHosting-azure-site" class="project-link" target="_blank">View on GitHub →</a>
-                </div>
-
-                <!-- Project 2: Linux Labs -->
-                <div class="project-card">
-                    <div class="project-title">🐧 Linux Labs - DevOps Practice</div>
-                    <div class="project-description">
-                        Comprehensive Linux and DevOps hands-on labs covering Ubuntu administration, Docker containerization, Nginx web server setup, and MySQL database management. Built complete infrastructure in 2 days with professional documentation.
-                    </div>
-                    <div class="tech-stack">
-                        <span class="tech-badge">Linux/Ubuntu</span>
-                        <span class="tech-badge">Docker</span>
-                        <span class="tech-badge">Nginx</span>
-                        <span class="tech-badge">MySQL</span>
-                        <span class="tech-badge">Bash Scripting</span>
-                        <span class="tech-badge">Docker Compose</span>
-                    </div>
-                    <div class="project-description">
-                        <strong>Key Components:</strong>
-                        <ul style="margin-left: 20px; margin-top: 10px;">
-                            <li>Custom Dockerfile with Ubuntu + Nginx</li>
-                            <li>Docker Compose orchestration (Nginx + MySQL)</li>
-                            <li>Bash automation scripts for backup</li>
-                            <li>MySQL database setup in containers</li>
-                            <li>Professional bilingual documentation (TH/EN)</li>
-                        </ul>
-                    </div>
-                    <a href="https://github.com/d234mkikodo/linux-labs" class="project-link" target="_blank">View on GitHub →</a>
-                </div>
-
-                <!-- Project 3: n8n Workflow -->
-                <div class="project-card">
-                    <div class="project-title">🤖 n8n Job TTS Automation Workflow</div>
-                    <div class="project-description">
-                        An n8n workflow that automates job description conversion to speech using ElevenLabs API and delivers audio files to Discord channels. Features include data fetching, script processing, TTS conversion, and automated Discord notifications.
-                    </div>
-                    <div class="tech-stack">
-                        <span class="tech-badge">n8n</span>
-                        <span class="tech-badge">ElevenLabs API</span>
-                        <span class="tech-badge">Discord</span>
-                        <span class="tech-badge">Text-to-Speech</span>
-                        <span class="tech-badge">Automation</span>
-                    </div>
-                    <div class="project-description">
-                        <strong>Key Features:</strong>
-                        <ul style="margin-left: 20px; margin-top: 10px;">
-                            <li>Automated job data fetching</li>
-                            <li>Script generation and processing</li>
-                            <li>High-quality TTS with ElevenLabs</li>
-                            <li>Discord webhook integration</li>
-                            <li>Credential management system</li>
-                        </ul>
-                    </div>
-                    <a href="https://github.com/d234mkikodo/n8n-workflow" class="project-link" target="_blank">View on GitHub →</a>
-                </div>
-
-                <!-- Project 4: Go API -->
-                <div class="project-card">
-                    <div class="project-title">⚡ Advanced Go REST API</div>
-                    <div class="project-description">
-                        A production-ready REST API built with Go (Golang) featuring comprehensive CRUD operations, advanced search capabilities, pagination, input validation, and structured error handling. Built using only standard library packages for maximum performance and reliability.
-                    </div>
-                    <div class="tech-stack">
-                        <span class="tech-badge">Go</span>
-                        <span class="tech-badge">REST API</span>
-                        <span class="tech-badge">CRUD</span>
-                        <span class="tech-badge">Pagination</span>
-                        <span class="tech-badge">Validation</span>
-                    </div>
-                    <div class="project-description">
-                        <strong>API Endpoints:</strong>
-                        <ul style="margin-left: 20px; margin-top: 10px;">
-                            <li>GET /users - List all users with search & pagination</li>
-                            <li>GET /users/:id - Get user by ID</li>
-                            <li>POST /users - Create new user</li>
-                            <li>PUT /users/:id - Update user</li>
-                            <li>DELETE /users/:id - Delete user</li>
-                        </ul>
-                    </div>
-                    <a href="https://github.com/d234mkikodo/go-api" class="project-link" target="_blank">View on GitHub →</a>
-                </div>
-
-                <!-- Project 5: SpaceHub -->
-                <div class="project-card">
-                    <div class="project-title">🚀 SpaceHub - Modern Landing</div>
-                    <div class="project-description">
-                        Responsive, high-contrast landing page concept focused on performance and clean UI. Built with semantic HTML, modern CSS, and lightweight JavaScript interactions.
-                    </div>
-                    <div class="tech-stack">
-                        <span class="tech-badge">HTML</span>
-                        <span class="tech-badge">CSS</span>
-                        <span class="tech-badge">JavaScript</span>
-                        <span class="tech-badge">Responsive Design</span>
-                    </div>
-                    <div class="project-description">
-                        <strong>Highlights:</strong>
-                        <ul style="margin-left: 20px; margin-top: 10px;">
-                            <li>Clean, accessible layout with high contrast styling</li>
-                            <li>Responsive grid and components</li>
-                            <li>Lightweight interactions without heavy frameworks</li>
-                        </ul>
-                    </div>
-                    <a href="https://github.com/d234mkikodo/spacehub" class="project-link" target="_blank">View on GitHub →</a>
-                </div>
             </div>
         </section>
 
         <!-- Azure Deployment Section - Removed since it's now a separate project -->
-        </section>
 
         <!-- Footer -->
         <footer>
