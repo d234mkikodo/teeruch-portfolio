@@ -180,6 +180,25 @@
             background: #0284c7; /* sky-600 */
         }
 
+        /* Project actions (button group) */
+        .project-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 14px;
+        }
+
+        .project-link.secondary {
+            background: #ffffff;
+            color: #0f172a;
+            border: 1px solid #e5e7eb;
+        }
+
+        .project-link.secondary:hover {
+            background: #f8fafc; /* slate-50 */
+            transform: translateY(-2px);
+        }
+
         /* Azure Section */
         .azure-workflow {
             background: #f8f9fa;
@@ -282,10 +301,12 @@
                             <li>Enable Static Website Hosting</li>
                             <li>Upload files to `$web` via CLI</li>
                             <li>Access via public endpoint</li>
-                            <li>Live site: <a href="https://teeruchstorage123.z13.web.core.windows.net/" target="_blank">View Demo</a></li>
                         </ul>
                     </div>
-                    <a href="https://github.com/d234mkikodo/StaticWebsiteHosting-azure-site" class="project-link" target="_blank">View on GitHub →</a>
+                    <div class="project-actions">
+                        <a class="project-link" href="https://teeruchstorage123.z13.web.core.windows.net/" target="_blank">Live Demo</a>
+                        <a href="https://github.com/d234mkikodo/StaticWebsiteHosting-azure-site" class="project-link secondary" target="_blank">View on GitHub</a>
+                    </div>
                 </div>
 
                 <!-- Linux Labs -->
@@ -347,8 +368,10 @@
                         <span class="tech-badge">JavaScript</span>
                         <span class="tech-badge">Responsive Design</span>
                     </div>
-                    <a class="project-link" href="https://github.com/d234mkikodo/spacehub/tree/main" target="_blank">GitHub Repo</a>
-                    <a class="project-link" href="https://d234mkikodo.github.io/spacehub" target="_blank">Live Demo</a>
+                    <div class="project-actions">
+                        <a class="project-link" href="https://d234mkikodo.github.io/spacehub" target="_blank">Live Demo</a>
+                        <a class="project-link secondary" href="https://github.com/d234mkikodo/spacehub/tree/main" target="_blank">View on GitHub</a>
+                    </div>
                 </div>
             </div>
         </section>
